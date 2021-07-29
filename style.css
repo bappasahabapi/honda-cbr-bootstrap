@@ -32,3 +32,30 @@ body{
 .honda-gray-scale>img{
     filter: grayscale(100%);
 }
+
+                /* happy Client Section     */  
+h1>span{ color: #E76F51 ;                            
+ }
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: .5em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.card>img{
+    width: 65%;
+    border-radius: 50%;
+    
+    margin:  auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.filled {
+    color: #E76F51;
+}
+.unfilled{
+    color: #E76F51;
+}
+h6>span{
+    color: #23a6f0 !important;
+    font-weight: 600;
+}
