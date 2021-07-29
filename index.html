@@ -29,9 +29,40 @@
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
-                    <a href="#">
-                        <button class="btn-honda">Purchase</button>
-                    </a>
+
+                    <button class="btn-honda" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
+
+                    <!-- Modal Section of Purchase button -->
+
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="staticBackdropLabel">Honda CBR 2021</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-dark">
+                                        The price of Honda CBR is $1100 and this is imported form USA Honda Company
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Section of Purchase button -->
+
+
+
+
                 </div>
                 <div class="col-lg-6">
                     <img src="images/header-bike.png" alt="" class="w-100">

@@ -19,6 +19,7 @@ body{
 }
 .btn-honda:hover{
     background-color: green !important;
+    cursor: pointer;
 }
 
             /* featured bike 2021 section  */
