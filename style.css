@@ -3,6 +3,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+                    /* honda header section  */
 .honda-row-header{
     background: #264653 !important;
 }
@@ -17,4 +19,15 @@ body{
 }
 .btn-honda:hover{
     background-color: green !important;
+}
+
+            /* featured bike 2021 section  */
+
+.honda-small-color{
+    color: #E76F51 ;
+    font-weight: 700;
+}
+
+.honda-gray-scale>img{
+    filter: grayscale(100%);
 }
