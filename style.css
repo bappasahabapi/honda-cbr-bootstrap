@@ -1,0 +1,20 @@
+/* using google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.honda-row-header{
+    background: #264653 !important;
+}
+.btn-honda{
+    background: #E76F51 ;
+    border-radius: 5px;
+    border: none ;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+
+}
+.btn-honda:hover{
+    background-color: green !important;
+}
